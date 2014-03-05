@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Binomial Calculator</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">Binomial Distribution Calculator</h1>
+        <form name="binomForm">
+            <div class="entry">
+                <label for="n">Sample Size:</label>
+                <input type="number" name="n" size="10">
+            </div>
+
+            <div class="entry">
+                <label for="p">Probability of Sucess:</label>
+                <input type="number" name="p" size="10">
+            </div>
+
+            <h2 class="prob-title">Probability that phat falls between:</h2>
+            <div class="entry">
+                <label for="firstParam">First Parameter:</label>
+                <input type="number" name="firstParam" size="10">
+            </div>
+
+            <div class="entry">
+                <label for="secParam">Second Parameter:</label>
+                <input type="number" name="secParam" size="10">
+            </div>
+
+            <!-- Submit Button -->
+            <div class="calculate"><input class="btn" type="button" value="Calculate" onClick="binomDistro()"></div>
+
+            <!-- Results -->
+            <div class="result">
+            	<label for="meanX"> Mean of X:</label>
+                <input type="number" name="meanX" size="10" disabled>
+            </div>
+
+            <div class="result">
+            	<label for="stdDev">Standard Deviation of X</label>
+                <input type="number" name="stdDev" size="10" disabled>
+            </div>
+
+            <div class="result">
+            	<label for="pHat">phat:</label>
+                <input type="number" name="pHat" size="10" disabled>
+            </div>
+
+            <div class="result">
+            	<label for="normSD">Normal Standard Deviation</label>
+                <input type="number" name="normSD" size="10" disabled>
+            </div>
+
+            <div class="result">
+            	<label for="probZPos">P(Z &lt; _ ) </label>
+                <input type="number" name="probZPos" size="10" disabled>
+            </div>
+
+            <div class="result">
+            	<label for="probZNeg">P(Z &gt; _ ) </label>
+                <input type="number" name="probZNeg" size="10" disabled>
+            </div>
+
+            <div class="reset">
+                <input class="btn" type="reset" value="Reset">
+            </div>
+        </form>
+    </div>
+    <footer>&copy; Aldo Mucino-Martinez - 2014</footer>
+</body>
+
+</html>
