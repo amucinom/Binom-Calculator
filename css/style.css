@@ -86,6 +86,7 @@ label {
 
 	.btn:hover {
 		border-bottom: 5px solid #10a54f;
+		cursor: pointer;
 	}
 
 footer {
