@@ -63,7 +63,7 @@ input[type="text"] {
 	height: 2.5em;
 }
 
-input[type="text"]:focus, .reset, .calculate {
+input:focus, .reset, .calculate {
 	outline: none;
 }
 
