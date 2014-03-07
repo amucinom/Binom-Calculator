@@ -8,8 +8,8 @@ function binomDistro() {
 	var meanX = n*p;
 	document.binomForm.meanX.value = meanX.toFixed(4);
 
-	var stdDev = Math.sqrt(p*(1 - p));
-	document.binomForm.stdDev.value = stdDev.toFixed(4);
+	var stdDevBinom = Math.sqrt(n*p*(1 - p));
+	document.binomForm.stdDevBinom.value = stdDevBinom.toFixed(4);
 
 	var pHat = ((n*p) / n);
 	document.binomForm.pHat.value = pHat.toFixed(4);
