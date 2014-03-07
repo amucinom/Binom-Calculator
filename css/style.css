@@ -57,9 +57,14 @@ input[type="text"] {
     font-size: 14pt;
 }
 
+
 .reset, .calculate {
 	width: 8em;
 	height: 2.5em;
+}
+
+input[type="text"]:focus, .reset, .calculate {
+	outline: none;
 }
 
 label {
