@@ -11,9 +11,6 @@ function binomDistro() {
 	var stdDevBinom = Math.sqrt(n*p*(1 - p));
 	document.binomForm.stdDevBinom.value = stdDevBinom.toFixed(4);
 
-	var meanPHat = p;
-	document.binomForm.meanPHat.value = meanPHat.toFixed(4);
-
 	var stdDevPHat = Math.sqrt((p*(1 - p))/n);
 	document.binomForm.stdDevPHat.value = stdDevPHat.toFixed(4);
 
