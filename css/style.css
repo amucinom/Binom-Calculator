@@ -48,7 +48,7 @@ body {
 input[type="text"] {
 	float: right;
 	background-color: #ECF0F1;
-    border: 2px solid transparent;
+    border: 2px solid #333;
   	height: 2em;
     padding: 10px 0;
     margin: 5px;
@@ -70,7 +70,6 @@ label {
 }
 
 /* Buttons */
-
 .btn {
 	clear: both;
 	color: white;
