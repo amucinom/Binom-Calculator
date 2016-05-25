@@ -14,9 +14,10 @@ body {
 
 .wrapper {
 	background-color: white;
-	padding: 1em;
+	padding: 1.5rem;
 	max-width: 50%;
 	margin: 1.5em auto;
+	border-radius: 2px;
 }
 
 
@@ -48,8 +49,8 @@ body {
 input[type="text"] {
 	float: right;
 	background-color: #ECF0F1;
-    border: 1px solid #777;
-    padding: 10px 0;
+	padding: 2px 4px;
+    border: none;
     margin: 5px;
     width: 350px;
     height: 1.5em;
